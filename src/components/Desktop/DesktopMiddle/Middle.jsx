@@ -13,14 +13,16 @@ function Middle() {
     }
 })
 
+    
+
 
 
   return (
     <Stack
-    p={3} 
+    p={4} 
    direction='row'
    spacing={{
-    sm: 4, //600
+    sm: 6, //600
     md:  6 , //900
     lg: 10 //1200
    }}
@@ -71,7 +73,7 @@ function Middle() {
         <Typography variant='p' sx={{marginBottom:'18px'}} >We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</Typography>
 
      <ThemeProvider theme={theme}>
-     <Button sx={{ width:'150px' , color:'white'}}  variant='contained'>READ MORE</Button>
+     <Button sx={{ width:'150px' , color:'white'}}  variant='contained' disableElevation>READ MORE</Button>
      </ThemeProvider>
 
      </Stack>
