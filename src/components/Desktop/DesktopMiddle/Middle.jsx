@@ -89,36 +89,53 @@ function Middle() {
             sm:'180px', //600
             md: '200px', //900
             lg: '280px' //1200
-        }
+        },
+        backgroundColor:'hsl(240, 100%, 6%)'
         }}
-        p={{lg: 1}}
+        p={{lg: 4}}
+        spacing={4}
         >
 
-     <Typography variant='h3'>New</Typography>
+     <Typography variant='h3' sx={{color:'hsl(31, 80%, 62%)'}}>New</Typography>
 
      <List>
 
      
 <ListItem disablePadding>
 
-  <ListItemText primary='Hydrogen VS Electric Cars' secondary='Will hydrogen-fueled cars ever catch up to EVs?'/>
+<ListItemText 
+disableTypography 
+primary={<Typography variant='h5' style={{color:'white'}}>Hydrogen VS Electric Cars</Typography>} 
+secondary={<Typography variant='subtitle1' style={{color:'white', opacity:'60%'}}>Will hydrogen-fueled cars ever catch up to EVs?</Typography>}
+/>
 
 </ListItem>
 
-<Divider/>
+<Divider style={{backgroundColor:'white', opacity:'60%'}}/>
 
 <ListItem disablePadding>
 
-  <ListItemText primary='The Downsides of AI Artistry' secondary='What are the possible adverse effects of on-demand AI image generation?'/>
 
+<ListItemText 
+disableTypography 
+primary={<Typography variant='h5' style={{color:'white'}}>The Downsides of AI Artistry</Typography>} 
+secondary={<Typography variant='subtitle1' style={{color:'white', opacity:'60%'}}>What are the possible adverse effects of on-demand AI image generation?</Typography>}
+/>
+
+  
 </ListItem>
 
-<Divider/>
+<Divider style={{backgroundColor:'white', opacity:'60%'}}/>
 
 
 <ListItem disablePadding>
 
-  <ListItemText primary='Is VC Funding Drying Up?' secondary='Private funding by VC firms is down 50% YOY. We take a look at what that means.'/>
+<ListItemText 
+disableTypography 
+primary={<Typography variant='h5' style={{color:'white'}}>Is VC Funding Drying Up?</Typography>} 
+secondary={<Typography variant='subtitle1' style={{color:'white', opacity:'60%'}}>Private funding by VC firms is down 50% YOY. We take a look at what that means.</Typography>}
+/>
+
 
 </ListItem>
 
