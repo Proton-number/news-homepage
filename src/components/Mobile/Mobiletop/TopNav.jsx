@@ -18,7 +18,7 @@ function TopNav() {
        variant='h2' 
        component='div'  
        sx={{
-        fontFamily: 'DM Serif Display',
+        fontFamily: 'DM Serif Display,  serif',
         flexGrow:1
         }}>
        W.
