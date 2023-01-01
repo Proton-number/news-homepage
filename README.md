@@ -24,14 +24,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot (11)](https://user-images.githubusercontent.com/67767150/210158860-6314bd80-14c1-4b0d-9f3b-21850bf28f44.png)
+![Screenshot (12)](https://user-images.githubusercontent.com/67767150/210159068-cf1b2ae8-49ff-4289-b431-82ad5a25df85.png)
 
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl/hub)
 - Live Site URL: (https://newshomepages.netlify.app/)
 
 ## My process
