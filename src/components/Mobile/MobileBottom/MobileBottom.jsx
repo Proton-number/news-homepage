@@ -7,13 +7,6 @@ import gaming from '/src/images/image-gaming-growth.jpg'
 
 function MobileBottom() {
 
-  const theme = createTheme({
-    palette:{
-        primary:{
-            main:'hsl(4, 100%, 63%)'
-        }
-    }
-})
 
 
   return (

@@ -12,7 +12,11 @@ function DesktopNav() {
 
     <Typography 
     variant='h1' 
-     sx={{flexGrow:2}}>
+     sx={{
+      fontFamily: 'DM Serif Display',
+      flexGrow:2
+    }}
+      >
             W.
         </Typography>
 
