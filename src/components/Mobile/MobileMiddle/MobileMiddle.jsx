@@ -22,7 +22,7 @@ function MobileMiddle() {
         
         <Box >
 
-            <Typography variant='h3'>The Bright Future of Web 3.0?</Typography>
+            <Typography variant='h3' style={{fontWeight: 600}}>The Bright Future of Web 3.0?</Typography>
 
             <Typography variant='subtitle2'>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</Typography>
 

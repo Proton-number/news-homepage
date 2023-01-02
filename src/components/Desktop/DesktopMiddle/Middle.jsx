@@ -22,25 +22,27 @@ function Middle() {
     p={4} 
    direction='row'
    spacing={{
-    sm: 6, //600
+    sm: 2, //600
     md:  6 , //900
-    lg: 10 //1200
+    lg: 6 //1200
    }}
       >
       
-      <Stack >
+      <Stack spacing={{md:2}}>
 
-    <Box component='img' src={webDesktop} sx={{
+    <Box component='img' src={webDesktop} 
+    sx={{
         width:{
             sm: '440px', //600
-            md: '520px', //900
+            md: '560px', //900
             lg: '940px'  //1200
         },
- height:{
+        height:{
     sm: '200px', //600
-    md: '250px', //900
+    md: '320px', //900
     lg: '380px'  //1200
- }}}/>
+            }}}
+ />
 
    
    <Stack
@@ -52,7 +54,10 @@ function Middle() {
     }}
      p={2.4}>
 
-<Typography variant='h4' sx={{
+<Typography 
+variant='h3' 
+style={{fontWeight: 600}}
+sx={{
     width:{
         sm:'110px', //600
         md: '240px', //900
@@ -69,8 +74,10 @@ function Middle() {
             md: '200px', //900
             lg: '410px' //1200
         }
-        }}>
-        <Typography variant='p' sx={{marginBottom:'18px'}} >We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</Typography>
+        }}
+
+        >
+        <Typography variant='body1'  sx={{marginBottom:'18px'}} >We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</Typography>
 
      <ThemeProvider theme={theme}>
      <Button sx={{ width:'150px' , color:'white'}}  variant='contained' disableElevation>READ MORE</Button>
@@ -84,21 +91,26 @@ function Middle() {
 
       </Stack>
 
-     <Box  sx={{
-        width:{
-            sm:'180px', //600
-            md: '200px', //900
-            lg: '280px' //1200
-        },
+     <Stack  sx={{
+          width:{
+            lg: '280px'
+          },
         backgroundColor:'hsl(240, 100%, 6%)'
         }}
-        p={{lg: 4}}
-        spacing={4}
+        p={{
+          sm: 2.5, //600
+          md: 3, //900
+          lg: 5 //1200
+        }}
+        spacing={{
+          md:1, //900
+          lg: 1 //1200
+        }}
         >
 
      <Typography variant='h3' sx={{color:'hsl(31, 80%, 62%)'}}>New</Typography>
 
-     <List>
+     <List >
 
      
 <ListItem disablePadding>
@@ -142,7 +154,7 @@ secondary={<Typography variant='subtitle1' style={{color:'white', opacity:'60%'}
 
 </List>
 
-     </Box>
+     </Stack>
 
 
     </Stack>
